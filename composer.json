@@ -1,0 +1,25 @@
+{
+    "name": "sqlite3/sqlite3",
+    "description": "SQLite3",
+    "type": "project",
+    "require": {
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sqlite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sushil Kumar",
+            "email": "sushilkumbhar77@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/var-dumper": "^7.2"
+    }
+}
