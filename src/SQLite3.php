@@ -3,6 +3,7 @@
 namespace Sqlite;
 
 class SQLite3 {
+ /*
   public const int OK;
   public const int DENY;
   public const int IGNORE;
@@ -40,12 +41,15 @@ class SQLite3 {
   public const int SAVEPOINT;
   public const int COPY;
   public const int RECURSIVE;
+*/
   
   public __construct(
     string $filename,
     int $flags = SQLITE3_OPEN_READWRITE | SQLITE3_OPEN_CREATE,
     string $encryptionKey = ""
-  )
+){
+
+}
 
 public backup(SQLite3 $destination, string $sourceDatabase = "main", string $destinationDatabase = "main"): bool
 public busyTimeout(int $milliseconds): bool
